@@ -19,11 +19,13 @@ body:
   - type: dropdown
     id: surface
     attributes:
-      label: Amazon surface
+      label: Which product?
       options:
-        - Amazon Ads / AMC
-        - Selling Partner (Seller)
-        - Vendor Central
+        - Amazon Ads MCP
+        - Amazon Selling Partner MCP
+        - Amazon Vendor Central MCP
+        - Amazon Agent Iris
+        - Skills
         - Multiple / other
   - type: textarea
     id: workaround

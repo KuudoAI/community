@@ -6,9 +6,13 @@ body:
   - type: dropdown
     id: surface
     attributes:
-      label: Which part?
+      label: Which product?
       options:
-        - amazon_ads_mcp (Amazon Ads MCP server)
+        - Amazon Ads MCP
+        - Amazon Selling Partner MCP
+        - Amazon Vendor Central MCP
+        - Amazon Agent Iris
+        - Skills
         - Docs or guides on kuudo.com
         - Something else
     validations:

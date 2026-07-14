@@ -10,4 +10,6 @@ The front door for feedback, questions, and troubleshooting — for everyone run
 - 🗺️ **Wondering what's next?** [The roadmap](https://github.com/orgs/KuudoAI/projects) — 👍 the issues you want prioritized
 - 📚 **Learning?** [Field guides](https://www.kuudo.com/guides/) and [docs](https://www.kuudo.com/docs/) live on kuudo.com
 
-The code lives in [`amazon_ads_mcp`](https://github.com/KuudoAI/amazon_ads_mcp) — our open-source MCP server for the Amazon Ads API.
+Feedback here covers everything Kuudo — the Amazon Ads, Selling Partner, and Vendor Central MCP servers, Skills, and Amazon Agent Iris. If you hit it, report it here, whether or not the code is public.
+
+The open-source code lives in [`amazon_ads_mcp`](https://github.com/KuudoAI/amazon_ads_mcp) — our MCP server for the Amazon Ads API.
