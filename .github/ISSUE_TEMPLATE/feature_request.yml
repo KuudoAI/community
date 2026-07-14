@@ -1,0 +1,31 @@
+name: Feature request
+description: A tool, surface, or behavior Kuudo should have
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to get done?
+      description: The job or workflow — not the solution yet.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should Kuudo do?
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Amazon surface
+      options:
+        - Amazon Ads / AMC
+        - Selling Partner (Seller)
+        - Vendor Central
+        - Multiple / other
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How do you handle this today?

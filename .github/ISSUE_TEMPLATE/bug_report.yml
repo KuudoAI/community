@@ -1,0 +1,50 @@
+name: Bug report
+description: Something broken — a tool call, a setup step, a wrong response
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which part?
+      options:
+        - amazon_ads_mcp (Amazon Ads MCP server)
+        - Docs or guides on kuudo.com
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: MCP client
+      options:
+        - Claude / Claude Code
+        - ChatGPT
+        - Cursor
+        - n8n
+        - Other
+        - Not client-related
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. …\n2. …"
+  - type: input
+    id: version
+    attributes:
+      label: Version / deployment
+      placeholder: "e.g. main @ abc1234, self-hosted Docker"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      render: shell

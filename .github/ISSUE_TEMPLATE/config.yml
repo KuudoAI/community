@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Questions & troubleshooting
+    url: https://github.com/orgs/KuudoAI/discussions
+    about: Ask anything — setup help, how-do-I, best practices.
+  - name: 📚 Guides & docs
+    url: https://www.kuudo.com/guides/
+    about: Step-by-step field guides and reference docs on kuudo.com.
